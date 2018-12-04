@@ -25,7 +25,6 @@ Copy **webapp** folder to your EC2 instance.
  $ scp -i <pem file> -r webapp <EC2-instance-url>
 ```
 ## Run the application
-Goto following folder: webapp 
 Run the server in EC2 instance with : pm2 start
 
 ### Setup in Dragonboard 410c :
@@ -34,7 +33,7 @@ For serial communication you run the following command in Dragonboard 410c :
     $ pip install pyserial 
 ```
 ## Modify Configuration file as per your environment
-Please, change the required highlighted configuration in the folder : inventory_management/config.json
+Please, change the required highlighted configuration
 ```
 {
     "usb_setting" : "/dev/ttyUSB0",
