@@ -1,0 +1,12 @@
+{
+	"usb_setting" : "/dev/ttyUSB0",
+	"sensor_count": "5",
+	"url_connect" : "http://54.153.108.137:8655/api/updateItem",
+	"response_time": "60",
+        
+	"apn": "airtelgprs.com",
+	"username": " ",
+	"password": " ",
+	"auth_id":"0"
+
+}
