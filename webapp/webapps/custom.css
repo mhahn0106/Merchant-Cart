@@ -347,6 +347,17 @@ hr {
 	background-color: rgba(0,0,0,0.5);
 	z-index: 1000;
 }
+
+.move-cart-ok-btn{
+	color: white;
+	font-family: qualcommRegular;
+	background-color: rgb(0, 70, 222);
+	width: 120px;
+	border-radius: 3px;
+}
+.move-cart-ok-btn:focus{
+	box-shadow: none!important;
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
