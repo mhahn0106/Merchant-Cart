@@ -68,8 +68,8 @@ var createInventoryLogsTable = function(callback){
 module.exports = {
 	init : function(){
 		async.series({
-            createInventoryTable: createInventoryTable,
-            createInventoryLogsTable : createInventoryLogsTable,
+			createInventoryTable: createInventoryTable,
+			createInventoryLogsTable : createInventoryLogsTable,
 			addInventoryItem1: addInventoryItem1,
 			addInventoryItem2: addInventoryItem2,
 			addInventoryItem3: addInventoryItem3
