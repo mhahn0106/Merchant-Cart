@@ -9,7 +9,7 @@ app.config(function($routeProvider){
 			controller: 'mainController',
 			templateUrl: 'views/main.html'
 		})
-        .when('/dashboard', {
+		.when('/dashboard', {
 			controller: 'dashboardController',
 			templateUrl: 'views/dashboard.html'
 		})

@@ -43,5 +43,5 @@ io = socket(server);
 
 module.exports = app;
 
-/* let simulator = require("./simulator.js");
-simulator(); */
+let simulator = require("./simulator.js");
+simulator();
